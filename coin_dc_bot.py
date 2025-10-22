@@ -26,6 +26,8 @@ from telegram.ext import (
     ConversationHandler,
     CallbackContext,
 )
+from dotenv import load_dotenv
+load_dotenv()
 
 # Config from env
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
